@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">"Dream Coffee "</string>
+    <string name="namelogin">Customer Name</string>
+    <string name="emaillogin">Customer Email</string>
+    <string name="btnlogin">Login</string>
+    <string name="btnsignup">Sign up</string>
+    <string name="itemsmenu">Menu</string>
+    <string name="itemssale">Big Sale</string>
+    <string name="itemsvoucher">Voucher</string>
+    <string name="itemsservices">Services</string>
+    <string name="btnlogout">Log out</string>
+    <string name="btnexit">Exit</string>
+    <string name="inputusername">Input username</string>
+    <string name="inputpassword">Input password</string>
+    <string name="rememberme">Remember me</string>
+    <string name="confirmpassword">Confirm Password</string>
+</resources>

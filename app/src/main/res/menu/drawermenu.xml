@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/itemLogin"
+        android:icon="@drawable/ic_account_circle_black_24dp"
+        android:title="@string/btnlogin" />
+    <item
+        android:id="@+id/itemSignUp"
+        android:icon="@drawable/ic_person_add_black_24dp"
+        android:title="@string/btnsignup" />
+    <item
+        android:id="@+id/itemMenuSelected"
+        android:icon="@drawable/ic_menu_black_24dp"
+        android:title="@string/itemsmenuselected" />
+    <item
+        android:id="@+id/itemManager"
+        android:icon="@drawable/ic_account_circle_black_24dp"
+        android:title="Quản lý"
+        android:visible="false" />
+    <item
+        android:id="@+id/itemViewOrder"
+        android:icon="@drawable/order"
+        android:title="Bàn đang đặt món"
+        android:visible="false" />
+    <item
+        android:id="@+id/itemListDrinks"
+        android:icon="@drawable/ic_menu_black_24dp"
+        android:title="@string/itemsmenu" />
+    <item
+        android:id="@+id/itemSale"
+        android:icon="@drawable/ic_add_shopping_cart_black_24dp"
+        android:title="@string/itemssale" />
+    <item
+        android:id="@+id/itemVoucher"
+        android:icon="@drawable/ic_card_giftcard_black_24dp"
+        android:title="@string/itemsvoucher" />
+    <item
+        android:id="@+id/itemService"
+        android:icon="@drawable/ic_local_laundry_service_black_24dp"
+        android:title="@string/itemsservices" />
+    <item
+        android:id="@+id/itemLogout"
+        android:icon="@drawable/ic_exit_to_app_black_24dp"
+        android:title="@string/btnlogout" />
+    <item
+        android:id="@+id/itemExit"
+        android:icon="@drawable/ic_power_settings_new_black_24dp"
+        android:title="@string/btnexit" />
+</menu>

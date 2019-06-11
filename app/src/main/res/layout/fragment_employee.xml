@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background6"
+    tools:context=".ConnectSQL.Employee.EmployeeFragment"
+    android:padding="5dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="serif"
+        android:gravity="center"
+        android:text="DANH SÁCH NHÂN VIÊN"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"/>
+    <GridView
+        android:id="@+id/gvEmployee"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="50dp"
+        android:padding="10dp"
+        android:scrollbars="vertical"
+        android:layout_marginTop="30dp"/>
+
+</FrameLayout>

@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">Dream Coffee </string>
+    <string name="namelogin"> Tên khách hàng </string>
+    <string name="emaillogin"> Email khách hàng </string>
+    <string name="btnlogin"> Đăng nhập </string>
+    <string name="btnsignup"> Đăng ký </string>
+    <string name="permisson"> Loại tài khoản </string>
+    <string name="itemsmenuselected"> Đồ uống đã gọi </string>
+    <string name="itemsmenu"> Danh sách đồ uống </string>
+    <string name="itemssale"> Chương trình khuyến mãi </string>
+    <string name="itemsvoucher"> Săn Voucher </string>
+    <string name="itemsservices"> Dịch vụ đi kèm </string>
+    <string name="btnlogout"> Đăng xuất </string>
+    <string name="btnexit"> Thoát </string>
+
+
+    <string name="open"> Mở </string>
+    <string name="close"> Đóng </string>
+
+
+    <string name="inputusername"> Tên đăng nhập </string>
+    <string name="inputpassword"> Mật khẩu </string>
+    <string name="rememberme"> Lưu tên đăng nhập </string>
+    <string name="confirmpassword"> Nhập lại mật khẩu </string>
+
+    <string name="donotempty"> Tên đăng nhập hoặc mật khẩu không được để trống </string>
+    <string name="loginfail"> Đăng nhập không thành công, vui lòng thử lại </string>
+    <string name="loginsuccess"> Đăng nhập thành công </string>
+
+    <string name="donotmacth"> Mật khẩu không khớp, vui lòng thử lại </string>
+    <string name="signfail"> Đăng ký không thành công, vui lòng thử lại </string>
+    <string name="signupsuccess"> Đăng ký thành công </string>
+
+    <string name="have"> còn hàng </string>
+    <string name="donothave"> hết hàng </string>
+    <string name="quan_ly_kho">Quản lý kho</string>
+    <string name="quan_ly_nhanvien">Quản lý nhân viên</string>
+    <string name="quan_ly_thongke">Quản lý thống kê</string>
+    <string name="quan_ly_ban">Quản lý bàn</string>
+    <string name="title_activity_bill">BillActivity</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

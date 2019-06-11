@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_QLNV"
+        android:icon="@drawable/ic_account_circle_black_24dp"
+        android:title="@string/quan_ly_nhanvien"
+        />
+    <item
+        android:id="@+id/nav_QLKho"
+        android:icon="@drawable/ic_add_shopping_cart_black_24dp"
+        android:title="@string/quan_ly_kho" />
+
+    <item
+        android:id="@+id/nav_QLThongKe"
+        android:icon="@drawable/ic_menu_black_24dp"
+        android:title="@string/quan_ly_thongke" />
+</menu>

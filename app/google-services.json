@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "775580210675",
+    "firebase_url": "https://dreamcoffeesoftware.firebaseio.com",
+    "project_id": "dreamcoffeesoftware",
+    "storage_bucket": "dreamcoffeesoftware.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:775580210675:android:8b067e62ce53b038",
+        "android_client_info": {
+          "package_name": "com.example.phuhandsome.dreamcoffeesoftware"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "775580210675-5tlsriqba10lnia5u4oceoj8bcj287fi.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.phuhandsome.dreamcoffeesoftware",
+            "certificate_hash": "6f0d08995b0a4c5cbe4d9c5d138c8c08879cbd90"
+          }
+        },
+        {
+          "client_id": "775580210675-6mlmcrv3f4avq9sphfisk6qo4q7u1irc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC2kHW5AwLRIU3MKXPN-xyZ_ksrzTeNfJ4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "775580210675-6mlmcrv3f4avq9sphfisk6qo4q7u1irc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

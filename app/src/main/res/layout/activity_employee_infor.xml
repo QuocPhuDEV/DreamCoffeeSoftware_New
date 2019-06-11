@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context=".ManagerLoginTree.EmployeeInforActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/radiusmenu"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:fontFamily="serif"
+            android:gravity="center"
+            android:text="THÔNG TIN NHÂN VIÊN"
+            android:textColor="@android:color/black"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/edEmployeeName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:enabled="false"
+            android:text="Họ tên Nhân viên:"
+            android:textSize="15dp" />
+
+        <EditText
+            android:id="@+id/edBirthofdate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:enabled="false"
+            android:text="Ngày sinh Nhân viên:"
+            android:textSize="15dp" />
+
+        <EditText
+            android:id="@+id/edsex"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:enabled="false"
+            android:text="Giới tính Nhân viên:"
+            android:textSize="15dp" />
+
+        <EditText
+            android:id="@+id/edPhonenumber"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:enabled="false"
+            android:inputType="number"
+            android:text="SĐT Nhân viên:"
+            android:textSize="15dp" />
+
+        <EditText
+            android:id="@+id/edEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:enabled="false"
+            android:text="Email Nhân viên:"
+            android:textSize="15dp" />
+
+        <EditText
+            android:id="@+id/edCusAddress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:enabled="false"
+            android:text="Địa chỉ Nhân viên:"
+            android:textSize="15dp" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:padding="10dp">
+
+        <Button
+            android:id="@+id/btnAdd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/radiusbutton"
+            android:text="Thêm"
+            android:textAllCaps="false"
+            android:textColor="@android:color/white"
+            android:textSize="15dp" />
+
+        <Button
+            android:id="@+id/btnEdit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:background="@drawable/radiusbutton"
+            android:text="Sửa"
+            android:textAllCaps="false"
+            android:textColor="@android:color/white"
+            android:textSize="15dp" />
+
+        <Button
+            android:id="@+id/btnXoa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:background="@drawable/radiusbutton"
+            android:text="Xóa"
+            android:textAllCaps="false"
+            android:textColor="@android:color/white"
+            android:textSize="15dp" />
+    </LinearLayout>
+
+</LinearLayout>

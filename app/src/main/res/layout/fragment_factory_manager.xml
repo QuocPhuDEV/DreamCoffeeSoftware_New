@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background6"
+    android:padding="5dp"
+    tools:context=".FactoryManager.FactoryManagerFragment">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:fontFamily="serif"
+        android:gravity="center"
+        android:text="DANH SÁCH ĐỒ UỐNG TRONG KHO"
+        android:textColor="@color/white"
+        android:textSize="18dp"
+        android:textStyle="bold" />
+
+    <GridView
+        android:id="@+id/gvFactory"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="50dp"
+        android:layout_marginTop="35dp"
+        android:padding="10dp"
+        android:scrollbars="vertical"
+        />
+
+</FrameLayout>
